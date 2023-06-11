@@ -1,0 +1,34 @@
+{
+    "name": "node",
+    "version": "1.0.0",
+    "description": "base setup",
+    "main": "src/app.ts",
+    "scripts": {
+        "build": "rm -rf /build && tsc",
+        "start": "nodemon src/app.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/santhosh-db/nodeMongo_typeScript.git"
+    },
+    "author": "santhosh pd",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/santhosh-db/nodeMongo_typeScript/issues"
+    },
+    "homepage": "https://github.com/santhosh-db/nodeMongo_typeScript#readme",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "dotenv": "^16.1.4",
+        "express": "^4.18.2",
+        "joi": "^17.9.2",
+        "mongoose": "^7.2.3",
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.17",
+        "@types/node": "^20.3.0",
+        "typescript": "^5.1.3"
+    }
+}
